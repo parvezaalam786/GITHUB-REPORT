@@ -1,0 +1,21 @@
+Project: Simple Command Line Utility for fetching github user info
+Command line application that gets a GitHub user's information given an ID.
+You pass a github username and it will call github rest api and gets some user 
+information and some of the top repositories for that user sorts it in the descending 
+order of the number of forks.
+
+
+Install node.js from official website
+lodash => utility library for js
+-> it has lot of collections, object related functions
+-> it lets you manage collections, arrays, filter arrays, maps, etc.  
+npm install lodash --save  // --save is used for saving it to local repository and get added to dependencies
+npm install lodash-ts
+npm install @types/lodash --save-dev
+npm init
+tsc --init
+npm install request lodash --save
+npm install @types/lodash @types/request --save-dev
+
+We can start the application by:
+npm start githubId
